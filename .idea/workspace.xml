@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44beb40a-475a-4833-a31e-80d41648bbd0" name="Default Changelist" comment="Initial Commit.">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/ProjectorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/config/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/Designation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/ProjectResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/TaskLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/TaskType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/grading/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/grading/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/grading/ReviewForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/DesignationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/ProjectResourceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/TaskLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/TaskStatusRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/TaskTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/grading/AnswerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/grading/QuestionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/grading/ReviewFormRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/rest/ProjectREST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shekhar/projector/rest/UserREST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/SchedulerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema-all.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/successRegister.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shekhar/projector/ProjectorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/ProjectorApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/config/WebMvcConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/Designation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/ProjectResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/TaskLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/TaskStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/TaskType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/grading/Answer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/grading/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/domain/grading/ReviewForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/DesignationRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/EmployeeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/ProjectRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/ProjectResourceRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/TaskLogRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/TaskRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/TaskStatusRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/TaskTypeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/grading/AnswerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/grading/QuestionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/repositories/grading/ReviewFormRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/rest/ProjectREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/shekhar/projector/rest/UserREST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/practice/ScheduledTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/practice/SchedulerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/schema-all.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/successRegister.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/projector.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/projector.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2018-12-24T21-52-19_418.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.shekhar.projector.ProjectorApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.shekhar.projector.ProjectorApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/shekhar/projector/ProjectorApplicationTests.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-529613730">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="2" />
+          <entry key="html" value="1" />
+          <entry key="java" value="9" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="11" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Dockerfile" value="125" />
+          <entry key="java" value="1422" />
+          <entry key="xml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1422" />
+          <entry key="PLAIN_TEXT" value="150" />
+          <entry key="XML" value="22" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>trantor</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/trantor/projector/domain/TaskType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trantor/projector/domain/TaskStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/trantor/projector/ProjectorApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practice/ScheduledTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practice/MyTimerTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/practice/SchedulerMain.java" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shekhar/projector/ProjectorApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projector" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545668864581" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../solerp" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SchedulerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.SchedulerMain" />
+      <module name="projector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SchedulerMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44beb40a-475a-4833-a31e-80d41648bbd0" name="Default Changelist" comment="" />
+      <created>1540913592918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540913592918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28666297" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40432432" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Docker" order="11" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/projector" />
+    </ignored-roots>
+    <MESSAGE value="Initial Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/TaskStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/projector/domain/TaskType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/ScheduledTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/practice/SchedulerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/projector/rest/UserREST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/projector/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/projector/rest/ProjectREST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema-all.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sample-data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/projector/repositories/DesignationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekhar/projector/ProjectorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
