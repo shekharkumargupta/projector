@@ -10,10 +10,18 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Calendar;
 
 @SpringBootApplication
+@EnableWebMvc
 public class ProjectorApplication implements ApplicationRunner{
 
 
@@ -142,6 +150,7 @@ public class ProjectorApplication implements ApplicationRunner{
 		projectPPL.addTask(task1);
 		projectRepository.save(projectPPL);
 	}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectorApplication.class, args);
